@@ -1,11 +1,10 @@
-
 body {
   font-family: arial, sans-serif;
   font-size: 14px;
   max-width: 100%;
 }
 
-.header {
+header {
   display: flex;
   height: 35px;
   padding: 5px;
@@ -24,12 +23,12 @@ body {
   border-radius: 3px;
 }
 
-.header a {
+header a {
   padding: 7px;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
   
- .main {
+main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +68,7 @@ body {
   align-items: center;
 }
   
-.footer {
+footer {
   position: absolute;
   bottom: 0px;
   right: 0px;
